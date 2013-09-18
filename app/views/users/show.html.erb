@@ -1,0 +1,13 @@
+<p>
+	<strong>Login:</strong>
+	<%= @user.login%>
+</p>
+
+<p>
+	<strong>Email:</strong>
+	<%= @user.email %>
+</p>
+
+<p>
+<%= link_to 'Add Post', new_user_post_path(@user)%>
+</p>
