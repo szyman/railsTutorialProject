@@ -6,7 +6,7 @@ RailsSample::Application.routes.draw do
       resources :comments
     end
   end
-    root to: "welcome#index"
+    root to: "users#index"
     
     
   
